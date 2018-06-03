@@ -1,4 +1,4 @@
-const createHandler = require('./api-entry');
+const createHandler = require('./handler');
 
 module.exports = (mapping, options, cb) => {
   const API = {};
